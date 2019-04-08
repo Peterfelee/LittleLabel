@@ -1,0 +1,760 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42E85D2B78F664F6A6F59147 /* Pods_LittleLabel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5A2F78E86033FDC4925D333 /* Pods_LittleLabel.framework */; };
+		572EEB2409EC54AD9CDE4620 /* Pods_LittleLabelTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DFEC93CB91154F286C9A9D7 /* Pods_LittleLabelTests.framework */; };
+		D78804AF81628B328483D20C /* Pods_LittleLabelUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ACBE523670510197096806C /* Pods_LittleLabelUITests.framework */; };
+		E718BEF72243998500FB7340 /* LGFAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E718BEF62243998500FB7340 /* LGFAnimationViewController.swift */; };
+		E7540DF2224230810001CAB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7540DF1224230810001CAB5 /* AppDelegate.swift */; };
+		E7540DF4224230810001CAB5 /* LGFBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7540DF3224230810001CAB5 /* LGFBaseViewController.swift */; };
+		E7540DF9224230820001CAB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7540DF8224230820001CAB5 /* Assets.xcassets */; };
+		E7540DFC224230820001CAB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7540DFA224230820001CAB5 /* LaunchScreen.storyboard */; };
+		E7540E07224230820001CAB5 /* LittleLabelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7540E06224230820001CAB5 /* LittleLabelTests.swift */; };
+		E7540E12224230820001CAB5 /* LittleLabelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7540E11224230820001CAB5 /* LittleLabelUITests.swift */; };
+		E7540E202242352E0001CAB5 /* LGFNavgationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7540E1F2242352E0001CAB5 /* LGFNavgationViewController.swift */; };
+		E7540E24224235C30001CAB5 /* LGFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7540E23224235C30001CAB5 /* LGFViewController.swift */; };
+		E7540E2622423DDB0001CAB5 /* LGFCreateLabelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7540E2522423DDB0001CAB5 /* LGFCreateLabelViewController.swift */; };
+		E7540E2822423E800001CAB5 /* LGFEffectionAnaysisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7540E2722423E800001CAB5 /* LGFEffectionAnaysisViewController.swift */; };
+		E7540E2C2242447E0001CAB5 /* LGFCollcetionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7540E2B2242447E0001CAB5 /* LGFCollcetionView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E7540E03224230820001CAB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7540DE6224230810001CAB5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7540DED224230810001CAB5;
+			remoteInfo = LittleLabel;
+		};
+		E7540E0E224230820001CAB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7540DE6224230810001CAB5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7540DED224230810001CAB5;
+			remoteInfo = LittleLabel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C0594A1D398B7B610DD7303 /* Pods-LittleLabelTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LittleLabelTests.debug.xcconfig"; path = "Target Support Files/Pods-LittleLabelTests/Pods-LittleLabelTests.debug.xcconfig"; sourceTree = "<group>"; };
+		43E461FC879B2F6C320F448A /* Pods-LittleLabel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LittleLabel.release.xcconfig"; path = "Target Support Files/Pods-LittleLabel/Pods-LittleLabel.release.xcconfig"; sourceTree = "<group>"; };
+		5F3D2E2AA9525158017BA338 /* Pods-LittleLabelTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LittleLabelTests.release.xcconfig"; path = "Target Support Files/Pods-LittleLabelTests/Pods-LittleLabelTests.release.xcconfig"; sourceTree = "<group>"; };
+		6DFEC93CB91154F286C9A9D7 /* Pods_LittleLabelTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LittleLabelTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9ACBE523670510197096806C /* Pods_LittleLabelUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LittleLabelUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F22F30B5A749B29C3B91AEC /* Pods-LittleLabel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LittleLabel.debug.xcconfig"; path = "Target Support Files/Pods-LittleLabel/Pods-LittleLabel.debug.xcconfig"; sourceTree = "<group>"; };
+		A5A2F78E86033FDC4925D333 /* Pods_LittleLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LittleLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB2F82B49DAD874F9725E052 /* Pods-LittleLabelUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LittleLabelUITests.release.xcconfig"; path = "Target Support Files/Pods-LittleLabelUITests/Pods-LittleLabelUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E406D1A280195CFABC17D9A3 /* Pods-LittleLabelUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LittleLabelUITests.debug.xcconfig"; path = "Target Support Files/Pods-LittleLabelUITests/Pods-LittleLabelUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E718BEF62243998500FB7340 /* LGFAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGFAnimationViewController.swift; sourceTree = "<group>"; };
+		E7540DEE224230810001CAB5 /* LittleLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LittleLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7540DF1224230810001CAB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E7540DF3224230810001CAB5 /* LGFBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGFBaseViewController.swift; sourceTree = "<group>"; };
+		E7540DF8224230820001CAB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E7540DFB224230820001CAB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E7540DFD224230820001CAB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7540E02224230820001CAB5 /* LittleLabelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LittleLabelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7540E06224230820001CAB5 /* LittleLabelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LittleLabelTests.swift; sourceTree = "<group>"; };
+		E7540E08224230820001CAB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7540E0D224230820001CAB5 /* LittleLabelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LittleLabelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7540E11224230820001CAB5 /* LittleLabelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LittleLabelUITests.swift; sourceTree = "<group>"; };
+		E7540E13224230820001CAB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7540E1F2242352E0001CAB5 /* LGFNavgationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGFNavgationViewController.swift; sourceTree = "<group>"; };
+		E7540E23224235C30001CAB5 /* LGFViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGFViewController.swift; sourceTree = "<group>"; };
+		E7540E2522423DDB0001CAB5 /* LGFCreateLabelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGFCreateLabelViewController.swift; sourceTree = "<group>"; };
+		E7540E2722423E800001CAB5 /* LGFEffectionAnaysisViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGFEffectionAnaysisViewController.swift; sourceTree = "<group>"; };
+		E7540E2B2242447E0001CAB5 /* LGFCollcetionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGFCollcetionView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E7540DEB224230810001CAB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42E85D2B78F664F6A6F59147 /* Pods_LittleLabel.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7540DFF224230820001CAB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				572EEB2409EC54AD9CDE4620 /* Pods_LittleLabelTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7540E0A224230820001CAB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D78804AF81628B328483D20C /* Pods_LittleLabelUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5519C6F8B8F943F0B8367A2B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9F22F30B5A749B29C3B91AEC /* Pods-LittleLabel.debug.xcconfig */,
+				43E461FC879B2F6C320F448A /* Pods-LittleLabel.release.xcconfig */,
+				0C0594A1D398B7B610DD7303 /* Pods-LittleLabelTests.debug.xcconfig */,
+				5F3D2E2AA9525158017BA338 /* Pods-LittleLabelTests.release.xcconfig */,
+				E406D1A280195CFABC17D9A3 /* Pods-LittleLabelUITests.debug.xcconfig */,
+				DB2F82B49DAD874F9725E052 /* Pods-LittleLabelUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E7540DE5224230810001CAB5 = {
+			isa = PBXGroup;
+			children = (
+				E7540DF0224230810001CAB5 /* LittleLabel */,
+				E7540E05224230820001CAB5 /* LittleLabelTests */,
+				E7540E10224230820001CAB5 /* LittleLabelUITests */,
+				E7540DEF224230810001CAB5 /* Products */,
+				5519C6F8B8F943F0B8367A2B /* Pods */,
+				EDE8397EB5F21CF014BC8571 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E7540DEF224230810001CAB5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7540DEE224230810001CAB5 /* LittleLabel.app */,
+				E7540E02224230820001CAB5 /* LittleLabelTests.xctest */,
+				E7540E0D224230820001CAB5 /* LittleLabelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E7540DF0224230810001CAB5 /* LittleLabel */ = {
+			isa = PBXGroup;
+			children = (
+				E7540E2A224244550001CAB5 /* Views */,
+				E7540E29224244440001CAB5 /* Controllers */,
+				E7540DF1224230810001CAB5 /* AppDelegate.swift */,
+				E7540DF8224230820001CAB5 /* Assets.xcassets */,
+				E7540DFA224230820001CAB5 /* LaunchScreen.storyboard */,
+				E7540DFD224230820001CAB5 /* Info.plist */,
+			);
+			path = LittleLabel;
+			sourceTree = "<group>";
+		};
+		E7540E05224230820001CAB5 /* LittleLabelTests */ = {
+			isa = PBXGroup;
+			children = (
+				E7540E06224230820001CAB5 /* LittleLabelTests.swift */,
+				E7540E08224230820001CAB5 /* Info.plist */,
+			);
+			path = LittleLabelTests;
+			sourceTree = "<group>";
+		};
+		E7540E10224230820001CAB5 /* LittleLabelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E7540E11224230820001CAB5 /* LittleLabelUITests.swift */,
+				E7540E13224230820001CAB5 /* Info.plist */,
+			);
+			path = LittleLabelUITests;
+			sourceTree = "<group>";
+		};
+		E7540E29224244440001CAB5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E7540DF3224230810001CAB5 /* LGFBaseViewController.swift */,
+				E7540E23224235C30001CAB5 /* LGFViewController.swift */,
+				E7540E2522423DDB0001CAB5 /* LGFCreateLabelViewController.swift */,
+				E7540E2722423E800001CAB5 /* LGFEffectionAnaysisViewController.swift */,
+				E718BEF62243998500FB7340 /* LGFAnimationViewController.swift */,
+				E7540E1F2242352E0001CAB5 /* LGFNavgationViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E7540E2A224244550001CAB5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E7540E2B2242447E0001CAB5 /* LGFCollcetionView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EDE8397EB5F21CF014BC8571 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5A2F78E86033FDC4925D333 /* Pods_LittleLabel.framework */,
+				6DFEC93CB91154F286C9A9D7 /* Pods_LittleLabelTests.framework */,
+				9ACBE523670510197096806C /* Pods_LittleLabelUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E7540DED224230810001CAB5 /* LittleLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7540E16224230820001CAB5 /* Build configuration list for PBXNativeTarget "LittleLabel" */;
+			buildPhases = (
+				31C6FF8FC0A17FD2FA30D3D7 /* [CP] Check Pods Manifest.lock */,
+				E7540DEA224230810001CAB5 /* Sources */,
+				E7540DEB224230810001CAB5 /* Frameworks */,
+				E7540DEC224230810001CAB5 /* Resources */,
+				5D8FD7928B6E82267E35B600 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LittleLabel;
+			productName = LittleLabel;
+			productReference = E7540DEE224230810001CAB5 /* LittleLabel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E7540E01224230820001CAB5 /* LittleLabelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7540E19224230820001CAB5 /* Build configuration list for PBXNativeTarget "LittleLabelTests" */;
+			buildPhases = (
+				CEACD864E8572EFC66D53718 /* [CP] Check Pods Manifest.lock */,
+				E7540DFE224230820001CAB5 /* Sources */,
+				E7540DFF224230820001CAB5 /* Frameworks */,
+				E7540E00224230820001CAB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7540E04224230820001CAB5 /* PBXTargetDependency */,
+			);
+			name = LittleLabelTests;
+			productName = LittleLabelTests;
+			productReference = E7540E02224230820001CAB5 /* LittleLabelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E7540E0C224230820001CAB5 /* LittleLabelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7540E1C224230820001CAB5 /* Build configuration list for PBXNativeTarget "LittleLabelUITests" */;
+			buildPhases = (
+				B95D77F68E8A56E1413623FB /* [CP] Check Pods Manifest.lock */,
+				E7540E09224230820001CAB5 /* Sources */,
+				E7540E0A224230820001CAB5 /* Frameworks */,
+				E7540E0B224230820001CAB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7540E0F224230820001CAB5 /* PBXTargetDependency */,
+			);
+			name = LittleLabelUITests;
+			productName = LittleLabelUITests;
+			productReference = E7540E0D224230820001CAB5 /* LittleLabelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E7540DE6224230810001CAB5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Personal;
+				TargetAttributes = {
+					E7540DED224230810001CAB5 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					E7540E01224230820001CAB5 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = E7540DED224230810001CAB5;
+					};
+					E7540E0C224230820001CAB5 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = E7540DED224230810001CAB5;
+					};
+				};
+			};
+			buildConfigurationList = E7540DE9224230810001CAB5 /* Build configuration list for PBXProject "LittleLabel" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E7540DE5224230810001CAB5;
+			productRefGroup = E7540DEF224230810001CAB5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E7540DED224230810001CAB5 /* LittleLabel */,
+				E7540E01224230820001CAB5 /* LittleLabelTests */,
+				E7540E0C224230820001CAB5 /* LittleLabelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E7540DEC224230810001CAB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7540DFC224230820001CAB5 /* LaunchScreen.storyboard in Resources */,
+				E7540DF9224230820001CAB5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7540E00224230820001CAB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7540E0B224230820001CAB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		31C6FF8FC0A17FD2FA30D3D7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LittleLabel-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D8FD7928B6E82267E35B600 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LittleLabel/Pods-LittleLabel-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LittleLabel/Pods-LittleLabel-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B95D77F68E8A56E1413623FB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LittleLabelUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEACD864E8572EFC66D53718 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LittleLabelTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E7540DEA224230810001CAB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7540DF4224230810001CAB5 /* LGFBaseViewController.swift in Sources */,
+				E7540E24224235C30001CAB5 /* LGFViewController.swift in Sources */,
+				E7540E2622423DDB0001CAB5 /* LGFCreateLabelViewController.swift in Sources */,
+				E7540E202242352E0001CAB5 /* LGFNavgationViewController.swift in Sources */,
+				E7540E2822423E800001CAB5 /* LGFEffectionAnaysisViewController.swift in Sources */,
+				E7540E2C2242447E0001CAB5 /* LGFCollcetionView.swift in Sources */,
+				E718BEF72243998500FB7340 /* LGFAnimationViewController.swift in Sources */,
+				E7540DF2224230810001CAB5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7540DFE224230820001CAB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7540E07224230820001CAB5 /* LittleLabelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7540E09224230820001CAB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7540E12224230820001CAB5 /* LittleLabelUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E7540E04224230820001CAB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E7540DED224230810001CAB5 /* LittleLabel */;
+			targetProxy = E7540E03224230820001CAB5 /* PBXContainerItemProxy */;
+		};
+		E7540E0F224230820001CAB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E7540DED224230810001CAB5 /* LittleLabel */;
+			targetProxy = E7540E0E224230820001CAB5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E7540DFA224230820001CAB5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7540DFB224230820001CAB5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E7540E14224230820001CAB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E7540E15224230820001CAB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E7540E17224230820001CAB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F22F30B5A749B29C3B91AEC /* Pods-LittleLabel.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 89LAKJ7LBL;
+				INFOPLIST_FILE = LittleLabel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.LittleLabel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E7540E18224230820001CAB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43E461FC879B2F6C320F448A /* Pods-LittleLabel.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 89LAKJ7LBL;
+				INFOPLIST_FILE = LittleLabel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.LittleLabel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E7540E1A224230820001CAB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C0594A1D398B7B610DD7303 /* Pods-LittleLabelTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LittleLabelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.LittleLabelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LittleLabel.app/LittleLabel";
+			};
+			name = Debug;
+		};
+		E7540E1B224230820001CAB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F3D2E2AA9525158017BA338 /* Pods-LittleLabelTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LittleLabelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.LittleLabelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LittleLabel.app/LittleLabel";
+			};
+			name = Release;
+		};
+		E7540E1D224230820001CAB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E406D1A280195CFABC17D9A3 /* Pods-LittleLabelUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LittleLabelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.LittleLabelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LittleLabel;
+			};
+			name = Debug;
+		};
+		E7540E1E224230820001CAB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB2F82B49DAD874F9725E052 /* Pods-LittleLabelUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LittleLabelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.LittleLabelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LittleLabel;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E7540DE9224230810001CAB5 /* Build configuration list for PBXProject "LittleLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7540E14224230820001CAB5 /* Debug */,
+				E7540E15224230820001CAB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7540E16224230820001CAB5 /* Build configuration list for PBXNativeTarget "LittleLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7540E17224230820001CAB5 /* Debug */,
+				E7540E18224230820001CAB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7540E19224230820001CAB5 /* Build configuration list for PBXNativeTarget "LittleLabelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7540E1A224230820001CAB5 /* Debug */,
+				E7540E1B224230820001CAB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7540E1C224230820001CAB5 /* Build configuration list for PBXNativeTarget "LittleLabelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7540E1D224230820001CAB5 /* Debug */,
+				E7540E1E224230820001CAB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E7540DE6224230810001CAB5 /* Project object */;
+}
